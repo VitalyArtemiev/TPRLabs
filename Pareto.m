@@ -1,4 +1,4 @@
-n = 100
+n = 10
 
 maxarea = 100
 maxrooms = 10
