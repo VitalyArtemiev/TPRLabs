@@ -1,0 +1,81 @@
+/* config.h.in.  Generated from configure.ac by autoheader.  */
+
+#include "undef-ah-octave.h"
+
+/* Define to 1 if you have the <float.h> header file. */
+#undef HAVE_FLOAT_H
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define as 1 if liboctinterp is old enough to provide error_state. */
+#undef HAVE_OCTAVE_ERROR_STATE
+
+/* Define as 1 if liboctinterp has 'verror (octave(_|::)execution_exception&,
+   const char *, va_list)'. */
+#undef HAVE_OCTAVE_VERROR_ARG_EXC
+
+/* Define to 1 if you have the `sqrt' function. */
+#undef HAVE_SQRT
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if the system has the type `_Bool'. */
+#undef HAVE__BOOL
+
+/* macro for alternative Octave symbols */
+#undef OCTAVE__EXECUTION_EXCEPTION
+
+/* macro for alternative Octave symbols */
+#undef OCTAVE__FEVAL
+
+/* macro for alternative Octave symbols */
+#undef OCTAVE__MATH__ISNAN
+
+/* macro for alternative Octave symbols */
+#undef OV_ISCELL
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+#include "oct-alt-includes.h"

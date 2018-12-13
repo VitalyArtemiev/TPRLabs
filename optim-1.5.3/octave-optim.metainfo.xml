@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2016 Colin B. Macdonald
+
+Copying and distribution of this file, with or without modification,
+are permitted in any medium without royalty provided the copyright
+notice and this notice are preserved.  This file is offered as-is,
+without any warranty.
+-->
+<component type="addon">
+  <id>octave-optim</id>
+  <extends>www.octave.org-octave.desktop</extends>
+  <name>Optim</name>
+  <summary>Non-linear optimization toolkit</summary>
+  <description>
+    <p>The optim package is a collection of additional functions related to
+numerical optimization.</p>
+  </description>
+    <keywords>
+    <keyword>non-linear optimization</keyword>
+    <keyword>residual minimization</keyword>
+    <keyword>curve fitting</keyword>
+    <keyword>optimization statistics</keyword>
+    <keyword>zero finders</keyword>
+    <keyword>gradients</keyword>
+    <keyword>derivatives</keyword>
+    <keyword>levenberg</keyword>
+    <keyword>marquardt</keyword>
+    <keyword>simulated annealing</keyword>
+  </keywords>
+  <url type="homepage">http://octave.sourceforge.net/optim</url>
+  <url type="bugtracker">https://savannah.gnu.org/bugs/?func=additem&amp;group=octave</url>
+  <project_license>GPL-3.0+</project_license>
+  <developer_name>Octave-Forge Community</developer_name>
+  <update_contact>octave-maintainers@gnu.org</update_contact>
+  <metadata_license>FSFAP</metadata_license>
+</component>
