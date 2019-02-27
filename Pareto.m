@@ -77,11 +77,13 @@ maxs = [90, 9, 9000, 50, 4]
 Frontier(i,:) = [];
 printf("After excluding by min:\n")
 Frontier
+fb = Frontier;
 
 [i,j] = find((maxs .- Frontier)<0);
 Frontier(i,:) = [];
 printf("After excluding by max:\n")
 Frontier
+Frontier = fb;
 
 printf("Best by area:\n")
 disp( sortrows(Frontier,1)(1,:))
@@ -101,8 +103,8 @@ disp( sortrows(Frontier,5)(1,:))
 
 
 
-#CritPrior = [-1, -2, -3, -4, -5]
+%CritPrior = [-1, -2, -3, -4, -5]
 
-#Matrix(1, :) = Matrix(1, :) .* CritPrior
+%Matrix(1, :) = Matrix(1, :) .* CritPrior;
 
-#ResultByCritPrior = sortrows(Matrix(2:n+1,:), Matrix(1, :))
+%ResultByCritPrior = sortrows(Matrix(2:n+1,:), Matrix(1, :))
