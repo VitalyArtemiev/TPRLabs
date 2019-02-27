@@ -42,8 +42,8 @@ N
 
 D = P./N
 
-  
 discard = find(D < c);
+
 D(discard) = NaN;
 D
     
