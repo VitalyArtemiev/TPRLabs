@@ -159,7 +159,6 @@ while !finished
  
   x0n
   TH(:,:,iteration+1) = x0n;
-  input("waiting");
 endwhile
 
 fres = funcToOptimize(x0n);
